@@ -1,0 +1,7 @@
+echo "What is your name?" read vname echo "Hello $vname!" echo " " echo "How many apples do you have?" read a echo "How many oranges do 
+you have?" read o vala=`expr $a \* 3` valo=`expr $o \* 2` trueval=`expr $vala + $valo` echo "You have $trueval dollars worth of fruit." 
+echo " " echo "Would you like to see my wares?" echo "{type Y/N)" read sell if [ $sell=Y ] then echo "I have these wares..." if [ $sell=N 
+] then echo "Get the hell out of my store." if [ expression ]#while [ $a -lt 100 ] then#do
+   Statement(s) to be executed if expression is true# echo "I have $a apples" else# a=`expr $a + 1`
+   Statement(s) to be executed if expression is not true#done
+fi
